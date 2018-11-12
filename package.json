@@ -25,6 +25,7 @@
       "layout": "_layout",
       "asset": "_asset",
       "image": "image",
+      "sound": "sound",
       "font": "font",
       "templateCollection": [
         "article",

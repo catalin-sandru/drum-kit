@@ -1,0 +1,30 @@
+body {
+  background-image: url("/asset/image/pexels-photo-210158.jpeg");
+  margin: auto auto;
+
+}
+.keys {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 15rem;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 0.2rem solid wheat;
+  text-align: center;
+  line-height: 1.2rem;
+  margin: 0 1rem;
+  width: 5rem;
+  color: wheat;
+
+  kbd {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+}
