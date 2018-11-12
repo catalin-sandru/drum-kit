@@ -24,8 +24,8 @@
       "component": "_component",
       "layout": "_layout",
       "asset": "_asset",
-      "image": "image",
       "sound": "sound",
+      "image": "image",
       "font": "font",
       "templateCollection": [
         "article",
