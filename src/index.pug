@@ -2,8 +2,8 @@
 html(lang="en")
   head
     -
-      //- var baseUrl = 'http://localhost:3000';
-      var baseUrl = 'https://freebiker2000.github.io/drum-kit'
+      var baseUrl = 'http://localhost:3000';
+      //- var baseUrl = 'https://freebiker2000.github.io/drum-kit/'
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
@@ -40,8 +40,8 @@ html(lang="en")
           kbd L
           span.sound TINK
       
-      audio(data-key="65", src="/asset/image/sound/clap.wav")
-      audio(data-key="83", src="/asset/image/sound/hihat.wav")
+      audio(data-key="65", src=`${baseUrl}/asset/image/sound/clap.wav`)
+      audio(data-key="83", src=`${baseUrl}/asset/image/sound/hihat.wav`)
       audio(data-key="68", src="/asset/image/sound/kick.wav")
       audio(data-key="70", src="/asset/image/sound/openhat.wav")
       audio(data-key="71", src="/asset/image/sound/boom.wav")

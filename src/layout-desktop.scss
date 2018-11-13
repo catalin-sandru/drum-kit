@@ -7,7 +7,7 @@ html, body {
 }
 
 .bg-image {
-  background-image: url("/asset/image/pexels-photo-260034.jpeg");
+  background-image: url('[`${baseUrl}`]/asset/image/pexels-photo-260034.jpeg');
   width: auto;
   height:50rem;
 }
