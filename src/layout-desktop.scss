@@ -30,7 +30,9 @@ html, body {
   width: 5rem;
   color: white;
   transition: all 0.1s;
-
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 kbd {
