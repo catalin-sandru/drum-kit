@@ -3,10 +3,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     top: 10rem;
+    // padding: 1rem;
+  }
+  
+  .key {
+    // margin-top: 1rem;
+    padding: 1rem;
+    margin: 1rem auto;
   }
 
-  .key {
-    padding: 1rem;
-    margin-top: 1rem;
-  }
 }

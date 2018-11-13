@@ -7,9 +7,9 @@ html, body {
 }
 
 .bg-image {
-  background-image: url('[`${baseUrl}`]/asset/image/pexels-photo-260034.jpeg');
-  width: auto;
-  height:50rem;
+  background-image: url("/drum-kit/asset/image/pexels-photo-260034.jpeg");
+  width: stretch;
+  height: 100vh;
 }
 .keys {
   display: inline-flex;
@@ -22,12 +22,13 @@ html, body {
 .key {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.8rem;
   border: 0.2rem solid white;
+  border-radius: 1rem;
   text-align: center;
   line-height: 1.2rem;
   margin: 0 1rem;
-  width: 5rem;
+  width: 3.5rem;
   color: white;
   transition: all 0.1s;
   &:hover {

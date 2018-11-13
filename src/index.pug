@@ -2,8 +2,8 @@
 html(lang="en")
   head
     -
-      var baseUrl = 'http://localhost:3000';
-      //- var baseUrl = 'https://freebiker2000.github.io/drum-kit/'
+      //- var baseUrl = 'http://localhost:3000';
+      var baseUrl = 'https://freebiker2000.github.io/drum-kit'
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
@@ -42,13 +42,13 @@ html(lang="en")
       
       audio(data-key="65", src=`${baseUrl}/asset/image/sound/clap.wav`)
       audio(data-key="83", src=`${baseUrl}/asset/image/sound/hihat.wav`)
-      audio(data-key="68", src="/asset/image/sound/kick.wav")
-      audio(data-key="70", src="/asset/image/sound/openhat.wav")
-      audio(data-key="71", src="/asset/image/sound/boom.wav")
-      audio(data-key="72", src="/asset/image/sound/ride.wav")
-      audio(data-key="74", src="/asset/image/sound/snare.wav")
-      audio(data-key="75", src="/asset/image/sound/tom.wav")
-      audio(data-key="76", src="/asset/image/sound/tink.wav")
+      audio(data-key="68", src=`${baseUrl}/asset/image/sound/kick.wav`)
+      audio(data-key="70", src=`${baseUrl}/asset/image/sound/openhat.wav`)
+      audio(data-key="71", src=`${baseUrl}/asset/image/sound/boom.wav`)
+      audio(data-key="72", src=`${baseUrl}/asset/image/sound/ride.wav`)
+      audio(data-key="74", src=`${baseUrl}/asset/image/sound/snare.wav`)
+      audio(data-key="75", src=`${baseUrl}/asset/image/sound/tom.wav`)
+      audio(data-key="76", src=`${baseUrl}/asset/image/sound/tink.wav`)
 
 script.
   function playSound(e) {
