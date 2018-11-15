@@ -2,8 +2,8 @@
 html(lang="en")
   head
     -
-      //- var baseUrl = 'http://localhost:3000';
-      var baseUrl = 'https://freebiker2000.github.io/drum-kit'
+      var baseUrl = 'http://localhost:3000';
+      //- var baseUrl = 'https://freebiker2000.github.io/drum-kit'
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
@@ -23,7 +23,7 @@ html(lang="en")
           span.sound KICK
         .key(data-key="70")
           kbd F
-          span.sound OPENHAT
+          span.sound OPEN
         .key(data-key="71")
           kbd G
           span.sound BOOM
@@ -67,5 +67,4 @@ script.
   };
   const keys = document.querySelectorAll('.key');
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-  window.addEventListener('keydown', playSound)
-  
+  window.addEventListener("keydown", playSound)
